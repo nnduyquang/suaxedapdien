@@ -4,6 +4,9 @@
 Route::get('/', function () {
     return view('frontend.home.index');
 });
+Route::get('/dichvu-suachua', function () {
+    return view('frontend.services.index');
+});
 Route::post('/tim-kiem','FrontendController@getSearch')->name('search');
 
 

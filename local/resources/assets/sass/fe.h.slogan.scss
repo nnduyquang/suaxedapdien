@@ -1,0 +1,32 @@
+div#slogan {
+  background-image: url('http://expert-themes.com/html/motor-expert/images/background/5.jpg');
+
+}
+
+div#slogan .col-md-7 p {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+div#slogan .col-md-7 p span {
+  font-size: 22px;
+  color: #043d89;
+  font-weight: bolder;
+}
+
+a.btn_callusslogan {
+  padding: 10px;
+  background-color: red;
+  color: white;
+  transition: .3s;
+}
+
+a.btn_callusslogan:hover {
+  background-color: #043d89;
+  color: white;
+}
+
+@media (min-width: 300px) and (max-width: 759px) {
+
+
+}

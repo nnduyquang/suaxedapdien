@@ -1,0 +1,92 @@
+div#fe_lo_info{
+  background-color: #c80606;
+}
+
+div#fe_lo_info .col-md-12{
+  padding: 5px 0px;
+  font-size: 14px;
+  color: white;
+}
+
+div#fe_lo_info .col-md-12 p{
+  font-weight: 600;
+  padding-top:3px ;
+}
+
+div#fe_lo_menu img{
+  height: 80px;
+  width: auto;
+
+}
+
+div#menu_top ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+div#menu_top ul li{
+  display: inline-flex;
+}
+
+div#menu_top ul li a{
+  box-sizing: border-box;
+  line-height: 80px;
+  padding: 0 10px;
+  color: red;
+  transition: .3s;
+  font-weight: 600;
+}
+
+div#menu_top ul li a:hover{
+  box-sizing: border-box;
+  border-bottom:3px solid red;
+  background: #c80606;
+  color: white;
+}
+
+div#menu_top ul li a.active{
+  box-sizing: border-box;
+  border-bottom:3px solid red;
+  background: #c80606;
+  color: white;
+}
+
+
+
+
+
+@media (min-width: 500px) and (max-width: 760px){
+  div#fe_lo_menu div#logo
+  {
+
+    text-align: center;
+  }
+  div#fe_lo_menu div#logo img{
+    height: 108px;
+    width: auto;
+    margin: auto;
+  }
+
+
+
+  div#fe_lo_info .col-md-12 p{
+    font-size: 16px;
+  }
+
+}
+
+
+@media (min-width: 300px) and (max-width: 500px){
+
+  div#fe_lo_menu img{
+    height: auto;
+    width: 100%;
+  }
+
+
+
+}
+
+
+

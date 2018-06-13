@@ -1,4 +1,4 @@
-@font-face {
+@import url(https://fonts.googleapis.com/css?family=Cuprum|Montserrat+Alternates|Oswald|Roboto|Saira+Extra+Condensed|Yanone+Kaffeesatz);@font-face {
   font-family: UTMAVO;
   src: url("../fonts/utm-avo.ttf");
 }
@@ -17,7 +17,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 body {
   line-height: 1;
-  font-family: UTMAVO !important;
+  font-family: "Roboto", sans-serif !important;
 }
 
 blockquote, q {
@@ -553,4 +553,424 @@ This class is added to the container
   -webkit-transform: translate(0, 0);
   transform: translate(0, 0);
   height: 46px;
+}
+
+div.fe-h-dvchungtoi {
+  width: 99%;
+  margin: auto;
+  background-color: #000;
+  text-align: center;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+div.fe-h-dvchungtoi:hover div.fe-h-dvchungtoi-hover {
+  bottom: 0;
+}
+
+div.fe-h-dvchungtoi-hover {
+  position: absolute;
+  background-color: #043d89;
+  z-index: 2;
+  bottom: -27%;
+  height: 50%;
+  width: 100%;
+  opacity: 0.8;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+div.fe-h-dvchungtoi-hover span {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+div.fe-h-dvchungtoi-hover i {
+  text-align: center;
+  border: 2px solid white;
+  padding: 8px;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+
+div.fe-h-dvchungtoi-hover a {
+  color: white;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+@media (min-width: 440px) and (max-width: 768px) {
+  div.fe-h-dvchungtoi-hover span {
+    font-weight: bold;
+    font-size: 22px;
+  }
+  div.fe-h-dvchungtoi-hover i {
+    font-size: 30px;
+  }
+  div.fe-h-dvchungtoi-hover p {
+    font-size: 23px;
+  }
+  div.fe-h-dvchungtoi-hover {
+    height: 100%;
+    bottom: -85%;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 439px) {
+  div.fe-h-dvchungtoi-hover {
+    bottom: -28%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1000px) {
+  div.fe-h-dvchungtoi-hover span {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  div.fe-h-dvchungtoi-hover i {
+    font-size: 24px;
+  }
+  div.fe-h-dvchungtoi-hover {
+    height: 100%;
+    bottom: -70%;
+  }
+}
+
+div#fe_h_quickcontact {
+  background-color: #c80606;
+}
+
+div#fe_h_quickcontact .col-md-4 {
+  padding: 30px 0px;
+  color: white;
+}
+
+div#fe_h_quickcontact .col-md-4 i {
+  border: 2px solid white;
+  padding: 8px;
+  border-radius: 50%;
+  margin-right: 10px;
+  color: white;
+}
+
+div#fe_h_quickcontact .col-md-4 p {
+  font-weight: bold;
+  display: block;
+}
+
+span.support-smalltext {
+  font-size: 14px;
+}
+
+div#fe_lo_info {
+  background-color: #c80606;
+}
+
+div#fe_lo_info .col-md-12 {
+  padding: 5px 0px;
+  font-size: 14px;
+  color: white;
+}
+
+div#fe_lo_info .col-md-12 p {
+  font-weight: 600;
+  padding-top: 3px;
+}
+
+div#fe_lo_menu img {
+  height: 80px;
+  width: auto;
+}
+
+div#menu_top ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+div#menu_top ul li {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+div#menu_top ul li a {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  line-height: 80px;
+  padding: 0 10px;
+  color: red;
+  -webkit-transition: .3s;
+  transition: .3s;
+  font-weight: 600;
+}
+
+div#menu_top ul li a:hover {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-bottom: 3px solid red;
+  background: #c80606;
+  color: white;
+}
+
+div#menu_top ul li a.active {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-bottom: 3px solid red;
+  background: #c80606;
+  color: white;
+}
+
+@media (min-width: 500px) and (max-width: 760px) {
+  div#fe_lo_menu div#logo {
+    text-align: center;
+  }
+  div#fe_lo_menu div#logo img {
+    height: 108px;
+    width: auto;
+    margin: auto;
+  }
+  div#fe_lo_info .col-md-12 p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+  div#fe_lo_menu img {
+    height: auto;
+    width: 100%;
+  }
+}
+
+div#fe_h_mainservices {
+  background-image: url(http://expert-themes.com/html/motor-expert/images/background/pattern-2.png);
+  background-size: cover;
+}
+
+div#fe_h_mainservices p {
+  position: relative;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+div#fe_h_mainservices p:before {
+  bottom: -10px;
+  left: 50%;
+  position: absolute;
+  content: '';
+  width: 68px;
+  height: 3px;
+  background-color: red;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+div#fe_h_mainservices span {
+  line-height: 23px;
+}
+
+div#fe_h_mainservices img {
+  border: 3px solid #5b5e61;
+  width: 68px;
+  height: auto;
+  border-radius: 50%;
+}
+
+div#fe_h_mainservices img.battery-chinhhang {
+  border: 3px solid #5b5e61;
+  width: 68px;
+  height: auto;
+  padding: 8px;
+  border-radius: 0;
+  margin-right: 20px;
+}
+
+div.customer-feedback {
+  position: relative;
+  padding: 20px 18px;
+  border: 3px solid #5b5e61;
+  margin-left: 10px;
+  border-radius: 5px;
+  line-height: 28px;
+}
+
+div.customer-feedback:before {
+  position: absolute;
+  top: 45%;
+  left: -7px;
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-top: 3px solid #5b5e61;
+  border-left: 3px solid #5b5e61;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  background-color: white;
+}
+
+span.title_ldnp {
+  font-weight: bold;
+}
+
+.img-customer2 {
+  display: none;
+}
+
+span.special-thank {
+  font-size: 20px;
+  color: red;
+}
+
+div#fe_h_mainservices img.battery-chinhhang2 {
+  display: none;
+  border: 3px solid #5b5e61;
+  width: 68px;
+  height: auto;
+  padding: 8px;
+  border-radius: 0;
+  margin-right: 20px;
+}
+
+@media (min-width: 300px) and (max-width: 700px) {
+  .img-customer1 {
+    display: none;
+  }
+  .img-customer2 {
+    display: block;
+    margin: auto;
+    margin-top: 8px;
+  }
+  img.battery-chinhhang {
+    display: none;
+  }
+  div.customer-feedback:before {
+    content: '';
+    border-top: 0;
+    border-left: 0;
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    background-color: transparent;
+  }
+}
+
+div#slogan {
+  background-image: url("http://expert-themes.com/html/motor-expert/images/background/5.jpg");
+}
+
+div#slogan .col-md-7 p {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+div#slogan .col-md-7 p span {
+  font-size: 22px;
+  color: #043d89;
+  font-weight: bolder;
+}
+
+a.btn_callusslogan {
+  padding: 10px;
+  background-color: red;
+  color: white;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+a.btn_callusslogan:hover {
+  background-color: #043d89;
+  color: white;
+}
+
+div#copyright {
+  background-color: #c80606;
+  color: white;
+  padding: 30px 0px;
+  font-size: 14px;
+}
+
+div#copyright a {
+  color: #09d3ee;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+div#copyright a:hover {
+  text-shadow: 1px 1px 1px white;
+  font-weight: 500;
+}
+
+div#footer_info .col-md-3 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+div#footer_info .col-md-3 ul li {
+  padding: 8px 0px;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+div#footer_info .col-md-3 ul li a {
+  color: white;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+div#footer_info .col-md-3 ul li a:hover {
+  padding-left: 3px;
+  color: red;
+}
+
+div#footer_info .col-md-3 p {
+  position: relative;
+}
+
+div#footer_info .col-md-3 p:before {
+  bottom: 0;
+  content: ' ';
+  position: absolute;
+  width: 68px;
+  height: 3px;
+  background-color: red;
+}
+
+#fe_ser_banner .text-inner-banner {
+  padding: 13px 10px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 36px;
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#fe_ser_banner .text-inner-banner p {
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin-top: 8px;
+  font-size: 23px;
+  color: white;
+}
+
+#fe_ser_banner .text-inner-banner span {
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 32px;
+  color: white;
+  font-weight: 600;
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+  #fe_ser_banner .text-inner-banner p {
+    font-size: 18px;
+  }
+  #fe_ser_banner .text-inner-banner span {
+    font-size: 23px;
+  }
+  #fe_ser_banner .text-inner-banner {
+    padding: 6px 3px;
+  }
 }

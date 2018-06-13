@@ -1,0 +1,117 @@
+div#fe_h_mainservices {
+  background-image: url(http://expert-themes.com/html/motor-expert/images/background/pattern-2.png);
+  background-size: cover;
+}
+
+div#fe_h_mainservices p {
+  position: relative;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+div#fe_h_mainservices p:before {
+  bottom: -10px;
+  left: 50%;
+  position: absolute;
+  content: '';
+  width: 68px;
+  height: 3px;
+  background-color: red;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+div#fe_h_mainservices span {
+  line-height: 23px;
+}
+
+div#fe_h_mainservices img {
+  border: 3px solid #5b5e61;
+  width: 68px;
+  height: auto;
+  border-radius: 50%;
+
+}
+
+div#fe_h_mainservices img.battery-chinhhang {
+  border: 3px solid #5b5e61;
+  width: 68px;
+  height: auto;
+  padding: 8px;
+  border-radius: 0;
+  margin-right: 20px;
+}
+
+div.customer-feedback {
+  position: relative;
+  padding: 20px 18px;
+  border: 3px solid #5b5e61;
+  margin-left: 10px;
+  border-radius: 5px;
+  line-height: 28px;
+}
+
+div.customer-feedback:before {
+  position: absolute;
+  top: 45%;
+  left: -7px;
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-top: 3px solid #5b5e61;
+  border-left: 3px solid #5b5e61;
+  transform: rotate(-45deg);
+  background-color: white;
+
+}
+
+span.title_ldnp {
+
+  font-weight: bold;
+
+}
+
+.img-customer2{
+  display: none;
+}
+
+span.special-thank {
+  font-size: 20px;
+  color: red;
+}
+
+div#fe_h_mainservices img.battery-chinhhang2 {
+  display: none;
+  border: 3px solid #5b5e61;
+  width: 68px;
+  height: auto;
+  padding: 8px;
+  border-radius: 0;
+  margin-right: 20px;
+}
+
+@media (min-width: 300px) and (max-width: 700px) {
+
+  .img-customer1{
+    display: none;
+  }
+  .img-customer2{
+    display: block;
+    margin: auto;
+    margin-top: 8px;
+  }
+
+  img.battery-chinhhang{
+    display: none;
+  }
+
+  div.customer-feedback:before {
+    content: '';
+    border-top: 0;
+    border-left: 0;
+    transform: rotate(-45deg);
+    background-color: transparent;
+
+  }
+
+}

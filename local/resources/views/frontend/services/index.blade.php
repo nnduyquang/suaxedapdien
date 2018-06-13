@@ -12,10 +12,10 @@
 
 @section('container')
 
-    @include('frontend.home.fe_h_slider')
-    @include('frontend.home.fe_h_slogan')
-    @include('frontend.home.fe_h_dichvuchungtoi')
-    @include('frontend.home.fe_h_mainservices')
+    @include('frontend.services.fe_ser_nav')
+    @include('frontend.services.fe_ser_banner')
+    @include('frontend.services.fe_ser_content')
     @include('frontend.home.fe_h_quickcontact')
+
 
 @stop

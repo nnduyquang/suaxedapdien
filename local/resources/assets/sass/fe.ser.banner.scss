@@ -1,0 +1,40 @@
+#fe_ser_banner .text-inner-banner{
+  padding: 13px 10px;
+  position: absolute;
+  bottom: 0;
+  right:0;
+  font-size: 36px;
+  color: white;
+  text-align: center;
+  background-color: rgba(00,00,00,0.5);
+}
+
+#fe_ser_banner .text-inner-banner p{
+  font-family:'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin-top: 8px;
+  font-size: 23px;
+  color: white;
+
+}
+
+#fe_ser_banner .text-inner-banner span{
+  font-family:'Saira Extra Condensed', sans-serif;
+  font-size: 32px;
+  color: white;
+  font-weight: 600;
+
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+
+  #fe_ser_banner .text-inner-banner p{
+    font-size: 18px;
+  }
+
+  #fe_ser_banner .text-inner-banner span{
+    font-size: 23px;
+  }
+  #fe_ser_banner .text-inner-banner{
+    padding: 6px 3px;}
+
+}
