@@ -50,7 +50,7 @@
                 với thiết bị và linh kiện tốt với giá cả phải chăng.</span></div>
                     </div>
                     <br>
-                    Quyền lợi khách hàng luôn được chúng tôi quang tâm hàng đầu.
+                    Quyền lợi khách hàng luôn được chúng tôi quan tâm hàng đầu.
                 </div>
             </div>
 
