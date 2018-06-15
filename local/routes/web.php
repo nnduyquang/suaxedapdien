@@ -5,6 +5,8 @@
 Route::get('/','FrontendController@getFrontend');
 Route::get('/dich-vu/{path}','FrontendController@getServiceDetail');
 Route::post('/tim-kiem','FrontendController@getSearch')->name('search');
+Route::get('/lien-he','FrontendController@getPage')->defaults('type','1');
+Route::get('/gioi-thieu','FrontendController@getPage')->defaults('type','2');
 
 
 

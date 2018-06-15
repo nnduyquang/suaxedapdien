@@ -9,7 +9,8 @@
     <meta name="keywords" content="@yield('keyword')">
     <meta name="description" content="@yield('description')">
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+          integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link rel="shortcut icon" href="images/icon/favicon.ico" type="image/x-icon">
     <link rel="icon" href="images/icon/favicon.ico" type="image/x-icon">
     {{ Html::style('css/core.common.css') }}
@@ -18,13 +19,13 @@
     @yield('styles')
 </head>
 <body>
-
-@include('frontend.layouts.fe_lo_topmenu')
-
-@yield('container')
-
-@include('frontend.layouts.fe_lo_footer')
-
+<div id="blurrMe">
+    @include('frontend.layouts.fe_lo_topmenu')
+    @include('frontend.common.menu.m-menu')
+    @yield('container')
+    @include('frontend.layouts.fe_lo_footer')
+</div>
+@include('frontend.common.menu.m-sidebar')
 {{ Html::script('js/core.common.js') }}
 {{ Html::script('js/core.frontend.js') }}
 <script type="text/javascript">
