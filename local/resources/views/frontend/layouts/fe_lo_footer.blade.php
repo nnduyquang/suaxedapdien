@@ -43,26 +43,12 @@
 
                         <div class="row">
 
-                            <div class="col-4">
-                                {{ Html::image('http://expert-themes.com/html/motor-expert/images/resource/insta-3.jpg','',array('style'=>'border: 2px solid white; margin-bottom: 8px;width: 100%;box-sizing: border-box')) }}
+                            <div class="col-12">
+                                {{ Html::image('images/uploads/12001_Banner_FacingLeft_2016.jpg','',array('style'=>'border: 2px solid white; margin-bottom: 8px;width: 100%;box-sizing: border-box')) }}
                             </div>
 
-                            <div class="col-4">
-                                {{ Html::image('http://expert-themes.com/html/motor-expert/images/resource/insta-3.jpg','',array('style'=>'border: 2px solid white; margin-bottom: 8px;width: 100%;box-sizing: border-box')) }}
-                            </div>
-
-                            <div class="col-4">
-                                {{ Html::image('http://expert-themes.com/html/motor-expert/images/resource/insta-3.jpg','',array('style'=>'border: 2px solid white; margin-bottom: 8px;width: 100%;box-sizing: border-box')) }}
-                            </div>
-
-                            <div class="col-4">
-                                {{ Html::image('http://expert-themes.com/html/motor-expert/images/resource/insta-3.jpg','',array('style'=>'border: 2px solid white; margin-bottom: 8px;width: 100%;box-sizing: border-box')) }}
-                            </div>
-                            <div class="col-4">
-                                {{ Html::image('http://expert-themes.com/html/motor-expert/images/resource/insta-3.jpg','',array('style'=>'border: 2px solid white; margin-bottom: 8px;width: 100%;box-sizing: border-box')) }}
-                            </div>
-                            <div class="col-4">
-                                {{ Html::image('http://expert-themes.com/html/motor-expert/images/resource/insta-3.jpg','',array('style'=>'border: 2px solid white; margin-bottom: 8px;width: 100%;box-sizing: border-box')) }}
+                            <div class="col-12">
+                                {{ Html::image('images/uploads/Anh-5-3.jpg','',array('style'=>'border: 2px solid white; margin-bottom: 8px;width: 100%;box-sizing: border-box')) }}
                             </div>
 
 
