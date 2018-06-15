@@ -16,6 +16,8 @@
     @include('frontend.home.fe_h_slogan')
     @include('frontend.home.fe_h_dichvuchungtoi')
     @include('frontend.home.fe_h_mainservices')
+    @include('frontend.home.fe_h_bottombgscroll')
     @include('frontend.home.fe_h_quickcontact')
+
 
 @stop
