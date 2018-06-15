@@ -4,7 +4,7 @@ namespace App\Repositories\Menu;
 
 interface MenuRepositoryInterface
 {
-    public function getAllMenuTree();
+    public function getAllMenu();
 
     public function findChildMenu($menus, $parent_id = 0, &$newArray);
 

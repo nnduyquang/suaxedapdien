@@ -19,15 +19,17 @@
 <div class="container-fluid shadow-sm" id="fe_lo_menu">
     <div class="container">
         <div class="row">
-            <div class="col-md-4" id="logo">
+            <div class="col-md-2" id="logo">
                 <img src="images/logo/logo-suaxedapdien.png" alt="">
             </div>
-            <div class="col-md-8 d-lg-block d-md-block d-sm-none d-none text-right" id="menu_top">
+            <div class="col-md-10 d-lg-block d-md-block d-sm-none d-none text-right" id="menu_top">
                 <ul>
-                    <li><a class="active" href="">HOME</a></li>
-                    <li><a href="">DỊCH VỤ</a></li>
-                    <li><a href="">BÁO GIÁ</a></li>
-                    <li><a href="">CONTACT US</a></li>
+                    <li><a class="active" href="">Trang Chủ</a></li>
+                    <li><a class="" href="">Giới Thiệu</a></li>
+                    @foreach($listMenu['services'] as $key=>$data)
+                        <li><a href="{{URL::to('dich-vu/'.$data->path)}}">{{$data->title}}</a></li>
+                    @endforeach
+                    <li><a class="" href="">Liên Hệ</a></li>
                 </ul>
             </div>
         </div>

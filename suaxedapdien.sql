@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th6 05, 2018 lúc 06:15 AM
+-- Thời gian đã tạo: Th6 15, 2018 lúc 05:45 AM
 -- Phiên bản máy phục vụ: 10.1.31-MariaDB
 -- Phiên bản PHP: 7.0.29
 
@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Cơ sở dữ liệu: `startproject`
+-- Cơ sở dữ liệu: `suaxedapdien`
 --
 
 -- --------------------------------------------------------
@@ -46,6 +46,13 @@ CREATE TABLE `category_items` (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Đang đổ dữ liệu cho bảng `category_items`
+--
+
+INSERT INTO `category_items` (`id`, `name`, `path`, `description`, `image`, `image_mobile`, `level`, `parent_id`, `type`, `seo_title`, `seo_description`, `seo_keywords`, `order`, `isActive`, `created_at`, `updated_at`) VALUES
+(1, 'Dịch Vụ', 'dich-vu', '<p>\r\n	Dịch Vụ\r\n</p>', 'images/uploads/images/gt_1.jpg', NULL, 0, NULL, 0, 'Dịch Vụ', 'Dịch Vụ', 'Dịch Vụ', 1, 1, '2018-06-15 01:55:36', '2018-06-15 01:55:36');
 
 -- --------------------------------------------------------
 
@@ -251,6 +258,15 @@ CREATE TABLE `posts` (
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
+--
+-- Đang đổ dữ liệu cho bảng `posts`
+--
+
+INSERT INTO `posts` (`id`, `title`, `path`, `description`, `content`, `image`, `seo_title`, `seo_description`, `seo_keywords`, `post_type`, `isActive`, `category_item_id`, `user_id`, `created_at`, `updated_at`) VALUES
+(1, 'Sửa Xe Đạp Tận Nhà', 'sua-xe-dap-tan-nha', '<p>\r\n	Sửa Chữa Xe Đạp Tận Nhà\r\n</p>', '<p>\r\n	Sửa Chữa Xe Đạp Tận Nhà\r\n</p>', 'images/uploads/images/dichvu/service-5.png', 'Sửa Chữa Xe Đạp Tận Nhà', 'Sửa Chữa Xe Đạp Tận Nhà', 'Sửa Chữa Xe Đạp Tận Nhà', 1, 1, 1, 1, '2018-06-15 01:56:15', '2018-06-15 03:45:00'),
+(2, 'Thay Và Phục Hồi Ắc Quy', 'thay-va-phuc-hoi-ac-quy', '<p>\r\n	Thay Ắc Quy Xe Đạp Điện\r\n</p>', '<p>\r\n	Thay Ắc Quy Xe Đạp Điện\r\n</p>', 'images/uploads/images/dichvu/service-1.jpg', 'Thay Ắc Quy Xe Đạp Điện', 'Thay Ắc Quy Xe Đạp Điện', 'Thay Ắc Quy Xe Đạp Điện', 1, 1, 1, 1, '2018-06-15 01:56:51', '2018-06-15 03:43:23'),
+(3, 'Phụ Tùng Xe Đạp Điện', 'phu-tung-xe-dap-dien', '<p>\r\n	Phụ Tùng Xe Đạp Điện\r\n</p>', '<p>\r\n	Phụ Tùng Xe Đạp Điện\r\n</p>', 'images/uploads/images/dichvu/service-8.png', 'Phụ Tùng Xe Đạp Điện', 'Phụ Tùng Xe Đạp Điện', 'Phụ Tùng Xe Đạp Điện', 1, 1, 1, 1, '2018-06-15 01:57:58', '2018-06-15 03:01:21');
+
 -- --------------------------------------------------------
 
 --
@@ -443,7 +459,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT cho bảng `category_items`
 --
 ALTER TABLE `category_items`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT cho bảng `category_permissions`
@@ -479,7 +495,7 @@ ALTER TABLE `permissions`
 -- AUTO_INCREMENT cho bảng `posts`
 --
 ALTER TABLE `posts`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT cho bảng `products`

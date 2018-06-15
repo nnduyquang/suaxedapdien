@@ -9,43 +9,12 @@ use App\Repositories\EloquentRepository;
 
 class MenuRepository extends EloquentRepository implements MenuRepositoryInterface
 {
-    public function getAllMenuTree()
+    public function getAllMenu()
     {
-        $menus = Menu::orderBy('order')->get(['id', 'name','order', 'type', 'isActive', 'content_id', 'parent_id', 'level']);
-        $children = array();
-        foreach ($menus as $key => $data) {
-            $data['children'] = $children;
-            $data['text'] = $data->name;
-            if ($data->type == 1) {
-                if ($data->content_id != 0) {
-                    $page = Post::where('id', $data->content_id)->first();
-                    $data['url'] = $page->path;
-                } else {
-                    $data['url'] = '#';
-                }
-            }else if($data->type == 2){
-                $categoryPost=CategoryPost::where('id', $data->content_id)->first();
-                $data['url'] = 'danh-muc/'.$categoryPost->path;
-            }
-            unset($data->name);
-        }
-        $newArray = array();
-        self::findChildMenu($menus, 0, $newArray);
-        $newArray = array_reverse($newArray);
-        foreach ($newArray as $key => $data) {
-            if ($data->level == 0)
-                continue;
-            foreach ($newArray as $key2 => $data2) {
-                if ($data2->id == $data->parent_id) {
-                    $temp = array($data);
-                    $data2->children = array_merge($data2->children, $temp);
-                    break;
-                }
-            }
-            unset($newArray[$key]);
-        }
-        $newArray = array_reverse($newArray);
-        return $newArray;
+        $data = '';
+        $services = Post::where('category_item_id', 1)->where('isActive', ACTIVE)->take(3)->get();
+        $data['services'] = $services;
+        return $data;
     }
 
     public function getModel()

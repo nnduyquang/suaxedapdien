@@ -1,12 +1,9 @@
 <?php
 
 
-Route::get('/', function () {
-    return view('frontend.home.index');
-});
-Route::get('/dichvu-suachua', function () {
-    return view('frontend.services.index');
-});
+
+Route::get('/','FrontendController@getFrontend');
+Route::get('/dich-vu/{path}','FrontendController@getServiceDetail');
 Route::post('/tim-kiem','FrontendController@getSearch')->name('search');
 
 
