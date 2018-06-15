@@ -13,7 +13,7 @@
 @section('container')
 
     @include('frontend.services.fe_ser_nav')
-    @include('frontend.services.fe_ser_banner')
+    @include('frontend.home.fe_h_slider')
     @include('frontend.services.fe_ser_content')
     @include('frontend.home.fe_h_quickcontact')
 

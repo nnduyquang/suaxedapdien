@@ -65,7 +65,7 @@
 <div class="container-fluid p-0">
     <div class="slideshow-container">
         <div class="mySlides2">
-            <img src="images/uploads/banner-1600x554-3.png" style="width:100%">
+            {{ Html::image('banner-1600x554-3.png','',array('style'=>'width:100%')) }}
         </div>
 
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
