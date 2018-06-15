@@ -6,7 +6,8 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 position-relative p-0">
-                <img src="images/uploads/banner-1600x554-2.png" style="width:100%">
+                {{ Html::image("images/uploads/banner-1600x554-2.png",'',array('style'=>'width:100%')) }}
+                {{--<img src="images/uploads/banner-1600x554-2.png" style="width:100%">--}}
                 <div class="col-md-12 text-right text-inner-banner">
                     <span>LÊ DUY NHẬT PHAN</span>
                     <p>Dịch vụ sửa chữa xe điện</p>

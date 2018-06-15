@@ -15,11 +15,11 @@
 
             </div>
             <div class="col-md-12 justify-content-center">
-                <img class="img-customer2" src="images/icon/customer-service.png" alt="">
+                {{ Html::image('images/icon/customer-service.png','',array('class'=>'img-customer2')) }}
             </div>
 
             <div class="col-md-12 d-flex align-items-center justify-content-center mt-3">
-                <img class="img-customer1" src="images/icon/customer-service.png" alt="">
+                {{ Html::image('images/icon/customer-service.png','',array('class'=>'img-customer1')) }}
                 <div class="customer-feedback">100% Khách hàng hài lòng với cái dịch vụ mà chúng tôi cung cấp <br>
                     Tiết kiệm thời gian và chi phí cho khách hàng. <br>
                     Chúng tôi làm việc có trách nhiệm, bảo hành dài hạn <br>
@@ -30,7 +30,7 @@
                         </div>
                     </div>
                     <div class="col-md-12 d-flex align-items-center justify-content-start mt-3">
-                        <img class="battery-chinhhang" src="images/icon/battery.png" alt="">
+                        {{ Html::image('images/icon/battery.png','',array('class'=>'battery-chinhhang')) }}
                         <div><span class="title_ldnp">BÌNH XE ĐẠP ĐIỆN CHÍNH HÃNG VỚI GIÁ TỐT NHẤT</span>
                             <br>
                             <span class="small-title">Chúng tôi cung cấp sản phẩm bình chính hảng bảo đảm chất lượng. <br>
@@ -43,7 +43,7 @@
                     </div>
 
                     <div class="col-md-12 d-flex align-items-center justify-content-start mt-3">
-                        <img class="battery-chinhhang" src="images/icon/electric-car.png" alt="">
+                        {{ Html::image('images/icon/electric-car.png','',array('class'=>'battery-chinhhang')) }}
                         <div><span class="title_ldnp">THIẾT KẾ XE LẮC TAY ĐIỆN CHO NGƯỜI KHUYẾT TẬT</span>
                             <br>
                             <span class="small-title">Chúng tôi cung cấp sản phẩm xe lắc tay điện cho người khuyết tật. <br>
