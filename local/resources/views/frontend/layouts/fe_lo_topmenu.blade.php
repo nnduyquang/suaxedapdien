@@ -20,7 +20,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-2" id="logo">
-                {{ Html::image('images/logo/logo-suaxedapdien.png','',array('class'=>'')) }}
+                {{ Html::image('images/logo/logo-suaxedapdien2.png','',array('class'=>'')) }}
             </div>
             <div class="col-md-10 d-lg-block d-md-block d-sm-none d-none text-right" id="menu_top">
                 <ul>
