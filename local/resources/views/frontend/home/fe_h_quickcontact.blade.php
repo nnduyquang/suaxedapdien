@@ -10,7 +10,7 @@
                     <i class="fas fa-stopwatch fa-2x"></i>
                     <span>8:00 AM to 9:00 PM
                         <br>
-                            <span class="support-smalltext">Sunday Opened</span>
+                            <span class="support-smalltext">Kể cả chủ nhật</span>
                     </span>
                 </div>
             </div>
@@ -18,7 +18,7 @@
                 <div class="d-flex align-items-center justify-content-center pt-3">
                     <i class="fas fa-phone fa-2x"></i>
                     <span>
-                            ZALO : 0909 123 123
+                            Hotline : 0904.9678.20
                         <br>
                         <span class="support-smalltext">Hỗ trợ 24/7 </span>
                     </span>

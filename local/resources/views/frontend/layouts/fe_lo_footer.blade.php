@@ -13,7 +13,7 @@
             <div class="col-md-3 col-sm-6 mb-3">
                 {{ Html::image('images/logo/logo-suaxedapdien-footer2.png','',array('style'=>'width: 100%;height: auto;')) }}
                 <ul>
-                    <li><span style="text-indent: 1.5em">Công ty sửa xe đạp điện một thành viên Lê Duy Nhật Phan.Công Ty chúng tôi cung cấp dịch vụ sửa chữa xe đạp điện với dịch vụ tốt nhất</span>
+                    <li><span style="text-indent: 1.5em">Trung tâm sửa chữa Hoàng Nhật. Chuyên cung cấp dịch vụ sửa chữa xe đạp điện với dịch vụ tốt nhất</span>
                     </li>
                     <li>
                         <i class="far fa-thumbs-up"></i> Dịch vụ tốt nhất. <br>
