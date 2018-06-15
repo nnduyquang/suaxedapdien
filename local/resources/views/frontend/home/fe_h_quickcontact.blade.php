@@ -28,7 +28,7 @@
                 <div class="d-flex align-items-center justify-content-center pt-3">
                     <i class="fab fa-galactic-republic fa-2x"></i>
                     <span>
-                            SỬA CHỬA TẬN NHÀ
+                            SỬA CHỮA TẬN NHÀ
                         <br>
                         <span class="support-smalltext">Sửa nhanh trong 24H </span>
                     </span>

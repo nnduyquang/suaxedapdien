@@ -19,7 +19,7 @@
                         <i class="far fa-thumbs-up"></i> Dịch vụ tốt nhất. <br>
                         <i class="far fa-thumbs-up"></i> Giá thành tốt nhất. <br>
                         <i class="far fa-thumbs-up"></i> Phụ tùng chính hãng. <br>
-                        <i class="far fa-thumbs-up"></i> Sửa chửa tận nhà.
+                        <i class="far fa-thumbs-up"></i> Sửa chữa tận nhà.
                     </li>
                 </ul>
             </div>

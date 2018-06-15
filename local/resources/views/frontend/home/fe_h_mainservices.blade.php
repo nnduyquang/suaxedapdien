@@ -33,8 +33,8 @@
                         {{ Html::image('images/icon/battery.png','',array('class'=>'battery-chinhhang')) }}
                         <div><span class="title_ldnp">BÌNH XE ĐẠP ĐIỆN CHÍNH HÃNG VỚI GIÁ TỐT NHẤT</span>
                             <br>
-                            <span class="small-title">Chúng tôi cung cấp sản phẩm bình chính hảng bảo đảm chất lượng. <br>
-                giá cạnh tranh bảo hành chu đáo cho khách hàng.</span></div>
+                            <span class="small-title">Chúng tôi cung cấp sản phẩm bình chính hãng bảo đảm chất lượng. <br>
+                Giá cạnh tranh bảo hành chu đáo cho khách hàng.</span></div>
                     </div>
                     <div class="row justify-content-center">
                         <div class="col-auto">
@@ -47,7 +47,7 @@
                         <div><span class="title_ldnp">THIẾT KẾ XE LẮC TAY ĐIỆN CHO NGƯỜI KHUYẾT TẬT</span>
                             <br>
                             <span class="small-title">Chúng tôi cung cấp sản phẩm xe lắc tay điện cho người khuyết tật. <br>
-                với thiết bị và linh kiện tốt với giá cả phải chăng.</span></div>
+                Với thiết bị và linh kiện tốt với giá cả phải chăng.</span></div>
                     </div>
                     <br>
                     Quyền lợi khách hàng luôn được chúng tôi quan tâm hàng đầu.
@@ -56,7 +56,7 @@
 
             <div class="col-md-12 mt-3 text-center" id="contact_info2">
                 <span> Trung tâm sửa chữa <span class="title_ldnp">HOÀNG NHẬT </span><br>
-                gởi lời cám ơn trân trọng tới những khách hàng luôn ủng hộ, và đồng hành cùng công ty chúng tôi
+                gửi lời cám ơn trân trọng tới những khách hàng luôn ủng hộ, và đồng hành cùng công ty chúng tôi
                 trong thời gian qua.</span> <br>
                 <br>
 

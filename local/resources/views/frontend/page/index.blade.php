@@ -10,8 +10,8 @@
 @stop
 
 @section('container')
-    @include('frontend.page.banner')
     @if($data['type']==1)
+        @include('frontend.page.banner')
         @include('frontend.page.contact')
     @else
         @include('frontend.page.introduce')
