@@ -9,7 +9,7 @@
 
             <div class="col-md-12 float-right align-items-center d-flex justify-content-end top-zalo">
                 {{ Html::image('images/icon/zalo.png','',array('style'=>'width: 20px;height: 20px;margin-right: 5px')) }}
-                <p> A.PHAN : 0904 9678 20</p>
+                <p> Hotline : 0904 9678 20</p>
             </div>
 
 
