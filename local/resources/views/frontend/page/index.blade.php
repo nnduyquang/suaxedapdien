@@ -10,6 +10,7 @@
 @stop
 
 @section('container')
+    @include('frontend.page.banner')
     @if($data['type']==1)
         @include('frontend.page.contact')
     @else
