@@ -80,7 +80,15 @@
                     <li class="d-flex vertical-align-center">
                         {{ Html::image('images/icon/zalo.png','',array('style'=>'width: 20px;height: 20px;margin-right: 5px')) }}
 
-                        <a href=""> ZALO : 0901 123 123</a></li>
+                        <a href=""> ZALO : 0904 9678 20</a></li>
+                    <li class="d-flex vertical-align-center">
+                        {{ Html::image('images/icon/placeholder.png','',array('style'=>'width: 20px;height: 20px;margin-right: 5px')) }}
+                        <a href=""> ĐỊA CHỈ 1:
+                        475/57 Cách Mạng Tháng 8, Phường 13, Quận 10.</a></li>
+                    <li class="d-flex vertical-align-center">
+                        {{ Html::image('images/icon/placeholder.png','',array('style'=>'width: 20px;height: 20px;margin-right: 5px')) }}
+                        <a href=""> ĐỊA CHỈ 2:
+                           53A Đông Nhì, Thuận An, Bình Dương.</a></li>
 
                 </ul>
             </div>

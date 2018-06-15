@@ -5,10 +5,11 @@
 <div class="container-fluid" id="fe_lo_info">
     <div class="container position-relative">
 
-        <div class="row">
-            <div class="col-md-12 position-relative float-right d-flex vertical-align-center justify-content-end">
+        <div class="row pt-1 pb-1">
+
+            <div class="col-md-12 float-right align-items-center d-flex justify-content-end top-zalo">
                 {{ Html::image('images/icon/zalo.png','',array('style'=>'width: 20px;height: 20px;margin-right: 5px')) }}
-                <p> A.PHAN : 0901 123 123</p>
+                <p> A.PHAN : 0904 9678 20</p>
             </div>
 
 

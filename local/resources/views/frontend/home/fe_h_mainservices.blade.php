@@ -54,14 +54,28 @@
                 </div>
             </div>
 
-            <div class="col-md-12 mt-3 text-center">
+            <div class="col-md-12 mt-3 text-center" id="contact_info2">
                 <span> Trung tâm sửa chữa <span class="title_ldnp">HOÀNG NHẬT </span><br>
                 gởi lời cám ơn trân trọng tới những khách hàng luôn ủng hộ, và đồng hành cùng công ty chúng tôi
                 trong thời gian qua.</span> <br>
                 <br>
 
+
+                            <a href=""> ĐỊA CHỈ 1:
+                                475/57 Cách Mạng Tháng 8, Phường 13, Quận 10.</a><br>
+
+                            <a href=""> ĐỊA CHỈ 2:
+                                53A Đông Nhì, Thuận An, Bình Dương.</a><br>
+
+
+                            <a href=""> PHONE : 0904 9678 20</a><br>
+
+                <br>
+
                 <span class="special-thank mt-2">XIN CHÂN THÀNH CÁM ƠN.!</span>
             </div>
+
+
 
         </div>
     </div>

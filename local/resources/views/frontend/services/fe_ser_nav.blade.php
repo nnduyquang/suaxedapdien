@@ -3,7 +3,7 @@
         padding: 8px 0px;
         background-color: #c80606;
         color: white;
-        font-weight: 550;
+        font-weight: 600;
     }
 </style>
 
@@ -11,7 +11,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                HOME - DỊCH VỤ SỬA CHỬA XE ĐIỆN
+                 DỊCH VỤ SỬA CHỮA XE ĐIỆN
             </div>
         </div>
     </div>
