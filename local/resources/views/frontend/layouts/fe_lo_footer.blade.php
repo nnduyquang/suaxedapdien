@@ -50,7 +50,7 @@
                             <div class="col-12">
                                 {{ Html::image('images/uploads/Anh-5-3.jpg','',array('style'=>'border: 2px solid white; margin-bottom: 8px;width: 100%;box-sizing: border-box')) }}
                             </div>
-
+{{----}}
 
                         </div>
 
