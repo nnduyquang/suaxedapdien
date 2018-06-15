@@ -65,7 +65,7 @@
 <div class="container-fluid p-0">
     <div class="slideshow-container">
         <div class="mySlides2">
-            <img src="http://expert-themes.com/html/motor-expert/images/main-slider/image-1.jpg" style="width:100%">
+            <img src="images/uploads/banner-1600x554-3.png" style="width:100%">
         </div>
 
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>

@@ -7,7 +7,7 @@
                     <img src="images/uploads/service-5.png" alt="" style="width: 100%;height: auto;">
                     <div class="fe-h-dvchungtoi-hover">
                         <div class="d-flex align-items-center justify-content-center pt-3">
-                            <i class="fas fa-screwdriver fa-2x"></i> <span>DỊCH VỤ SỬA CHỬA</span>
+                            <i class="fas fa-screwdriver fa-2x"></i> <span>SỬA CHỬA TẠI NHÀ</span>
                         </div>
                         <p class="p-4">Resize the browser window to see how the font size scales.</p>
                         <a href="">Read more.!</a>
