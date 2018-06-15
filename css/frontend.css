@@ -1047,7 +1047,7 @@ div#footer_info .col-md-3 p:before {
   color: #0d51db;
 }
 
-#introduce-info .description {
+#introduce-info #content-info .description {
   margin-top: 20px;
   line-height: 1.5 !important;
 }

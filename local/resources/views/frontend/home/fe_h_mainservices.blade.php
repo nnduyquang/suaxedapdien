@@ -10,7 +10,7 @@
                 <p>VỀ CHÚNG TÔI</p>
             </div>
             <div class="col-md-12 text-center mt-4">
-                <span> Trung tâm sửa chữa <span class="title_ldnp">LÊ DUY NHẬT PHAN </span><br>
+                <span> Trung tâm sửa chữa <span class="title_ldnp">HOÀNG NHẬT </span><br>
                 Với đội ngũ trẻ tuổi và tràn đầy nhiệt huyết, mục tiêu của chúng tôi là đem lại dịch vụ hoàn hảo nhất tới khách hàng.</span>
 
             </div>
@@ -55,7 +55,7 @@
             </div>
 
             <div class="col-md-12 mt-3 text-center">
-                <span> Trung tâm sửa chữa <span class="title_ldnp">LÊ DUY NHẬT PHAN </span><br>
+                <span> Trung tâm sửa chữa <span class="title_ldnp">HOÀNG NHẬT </span><br>
                 gởi lời cám ơn trân trọng tới những khách hàng luôn ủng hộ, và đồng hành cùng công ty chúng tôi
                 trong thời gian qua.</span> <br>
                 <br>
