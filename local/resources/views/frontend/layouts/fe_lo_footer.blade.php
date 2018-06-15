@@ -1,6 +1,7 @@
 <style>
     div#footer_info {
-        background-image: url('images/bg/special_bg.png');
+        background-color: #202325;
+        /*background-image: url('../images/bg/special_bg.png');*/
         color: white;
     }
 </style>
@@ -10,9 +11,10 @@
         <div class="row">
 
             <div class="col-md-3 col-sm-6 mb-3">
-                <img src="images/logo/logo-suaxedapdien-footer.png" alt="" style="width: 100%;height: auto;">
+                {{ Html::image('images/logo/logo-suaxedapdien-footer.png','',array('style'=>'width: 100%;height: auto;')) }}
                 <ul>
-                    <li> <span style="text-indent: 1.5em">Công ty sửa xe đạp điện một thành viên Lê Duy Nhật Phan.Công Ty chúng tôi cung cấp dịch vụ sửa chữa xe đạp điện với dịch vụ tốt nhất</span></li>
+                    <li><span style="text-indent: 1.5em">Công ty sửa xe đạp điện một thành viên Lê Duy Nhật Phan.Công Ty chúng tôi cung cấp dịch vụ sửa chữa xe đạp điện với dịch vụ tốt nhất</span>
+                    </li>
                     <li>
                         <i class="far fa-thumbs-up"></i> Dịch vụ tốt nhất. <br>
                         <i class="far fa-thumbs-up"></i> Giá thành tốt nhất. <br>
@@ -41,23 +43,27 @@
 
                         <div class="row">
 
-                            <div class="col-4"><img src="http://expert-themes.com/html/motor-expert/images/resource/insta-3.jpg" alt=""
-                                                    style="border: 2px solid white; margin-bottom: 8px;width: 100%;box-sizing: border-box"></div>
+                            <div class="col-4">
+                                {{ Html::image('http://expert-themes.com/html/motor-expert/images/resource/insta-3.jpg','',array('style'=>'border: 2px solid white; margin-bottom: 8px;width: 100%;box-sizing: border-box')) }}
+                            </div>
 
-                            <div class="col-4"><img src="http://expert-themes.com/html/motor-expert/images/resource/insta-3.jpg" alt=""
-                                                    style="border: 2px solid white; margin-bottom: 8px;width: 100%;box-sizing: border-box"></div>
+                            <div class="col-4">
+                                {{ Html::image('http://expert-themes.com/html/motor-expert/images/resource/insta-3.jpg','',array('style'=>'border: 2px solid white; margin-bottom: 8px;width: 100%;box-sizing: border-box')) }}
+                            </div>
 
-                            <div class="col-4"><img src="http://expert-themes.com/html/motor-expert/images/resource/insta-3.jpg" alt=""
-                                                    style="border: 2px solid white; margin-bottom: 8px;width: 100%;box-sizing: border-box"></div>
+                            <div class="col-4">
+                                {{ Html::image('http://expert-themes.com/html/motor-expert/images/resource/insta-3.jpg','',array('style'=>'border: 2px solid white; margin-bottom: 8px;width: 100%;box-sizing: border-box')) }}
+                            </div>
 
-                            <div class="col-4"><img src="http://expert-themes.com/html/motor-expert/images/resource/insta-3.jpg" alt=""
-                                                    style="border: 2px solid white; margin-bottom: 8px;width: 100%;box-sizing: border-box"></div>
-
-                            <div class="col-4"><img src="http://expert-themes.com/html/motor-expert/images/resource/insta-3.jpg" alt=""
-                                                    style="border: 2px solid white; margin-bottom: 8px;width: 100%;box-sizing: border-box"></div>
-
-                            <div class="col-4"><img src="http://expert-themes.com/html/motor-expert/images/resource/insta-3.jpg" alt=""
-                                                    style="border: 2px solid white; margin-bottom: 8px;width: 100%;box-sizing: border-box"></div>
+                            <div class="col-4">
+                                {{ Html::image('http://expert-themes.com/html/motor-expert/images/resource/insta-3.jpg','',array('style'=>'border: 2px solid white; margin-bottom: 8px;width: 100%;box-sizing: border-box')) }}
+                            </div>
+                            <div class="col-4">
+                                {{ Html::image('http://expert-themes.com/html/motor-expert/images/resource/insta-3.jpg','',array('style'=>'border: 2px solid white; margin-bottom: 8px;width: 100%;box-sizing: border-box')) }}
+                            </div>
+                            <div class="col-4">
+                                {{ Html::image('http://expert-themes.com/html/motor-expert/images/resource/insta-3.jpg','',array('style'=>'border: 2px solid white; margin-bottom: 8px;width: 100%;box-sizing: border-box')) }}
+                            </div>
 
 
                         </div>
@@ -71,13 +77,14 @@
                 <p class="pb-3 pt-2 font-weight-bold">KẾT NỐI VỚI CHÚNG TÔI</p>
                 <ul>
 
-                    <li class="d-flex vertical-align-center"><img src="images/icon/zalo.png" alt="" style="width: 20px;height: 20px;margin-right: 5px">
+                    <li class="d-flex vertical-align-center">
+                        {{ Html::image('images/icon/zalo.png','',array('style'=>'width: 20px;height: 20px;margin-right: 5px')) }}
+                        <img src="images/icon/zalo.png" alt="" style="width: 20px;height: 20px;margin-right: 5px">
+
                         <a href=""> ZALO : 0901 123 123</a></li>
 
                 </ul>
             </div>
-
-
         </div>
     </div>
 </div>
