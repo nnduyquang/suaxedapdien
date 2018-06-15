@@ -26,7 +26,7 @@
                     Chúng tôi sử dụng phụ tùng chính hãng, không nhập nhằng thông tin sản phẩm <br>
                     <div class="row justify-content-center">
                         <div class="col-auto">
-                        <img class="battery-chinhhang2" src="images/icon/battery.png" alt="">
+                            {{ Html::image('images/icon/battery.png','',array('class'=>'battery-chinhhang2')) }}
                         </div>
                     </div>
                     <div class="col-md-12 d-flex align-items-center justify-content-start mt-3">
@@ -38,7 +38,7 @@
                     </div>
                     <div class="row justify-content-center">
                         <div class="col-auto">
-                            <img class="battery-chinhhang2" src="images/icon/electric-car.png" alt="">
+                            {{ Html::image('images/icon/electric-car.png','',array('class'=>'battery-chinhhang2')) }}
                         </div>
                     </div>
 

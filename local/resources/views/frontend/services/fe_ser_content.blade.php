@@ -23,7 +23,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 mt-5 text-center sxdd-titl-nav">
-                <p>DỊCH VỤ SỬA CHỮA XE ĐIỆN TẬN NHÀ</p>
+                <p>{{$data['service']->title}}</p>
             </div>
             <div class="col-md-12 mt-3 mb-5">
                {!! $data['service']->content !!}

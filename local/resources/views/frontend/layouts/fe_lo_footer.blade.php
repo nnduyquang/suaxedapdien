@@ -79,7 +79,6 @@
 
                     <li class="d-flex vertical-align-center">
                         {{ Html::image('images/icon/zalo.png','',array('style'=>'width: 20px;height: 20px;margin-right: 5px')) }}
-                        <img src="images/icon/zalo.png" alt="" style="width: 20px;height: 20px;margin-right: 5px">
 
                         <a href=""> ZALO : 0901 123 123</a></li>
 

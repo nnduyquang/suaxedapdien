@@ -24,7 +24,7 @@
             </div>
             <div class="col-md-10 d-lg-block d-md-block d-sm-none d-none text-right" id="menu_top">
                 <ul>
-                    <li><a class="active" href="">Trang Chủ</a></li>
+                    <li><a class="active" href="{{URL::to('/')}}">Trang Chủ</a></li>
                     <li><a class="" href="">Giới Thiệu</a></li>
                     @foreach($listMenu['services'] as $key=>$data)
                         <li><a href="{{URL::to('dich-vu/'.$data->path)}}">{{$data->title}}</a></li>
